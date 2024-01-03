@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: none;
+}
+
+.home {
+    margin: 0 auto;
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(40, 176, 176), rgb(60, 60, 230));
+    height: 100vh;
+    gap: 20px;
+    align-items: center;
+
+    h1 {
+        font-weight: bold;
+        text-align: center;
+        color: white;
+
+    }
+
+    button {
+        width: 100%;
+        padding: 10px 30px;
+        color: rgb(5, 5, 5);
+        background-color: rgb(220, 240, 253);
+        box-shadow: 1px 1px 2px navy;
+        border: 3px solid navy;
+        border-radius: 45px;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+
+    button:hover {
+        background-color: transparent;
+        color: white;
+    }
+}
+
+.todopage {
+    background: linear-gradient(rgb(67, 224, 224), rgb(243, 239, 240));
+    height: 100vh;
+    align-items: center;
+
+    header ul {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(17, 139, 158);
+        box-shadow: 3px 3px 6px rgb(4, 59, 67);
+        color: white;
+
+
+        li {
+            font-size: 24px;
+            cursor: pointer;
+            padding: 10px;
+            color: white;
+
+
+        }
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 30px;
+        color: navy;
+    }
+
+    .enter {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        margin-bottom: 10px;
+        gap: 10px;
+
+
+        input {
+            width: 35%;
+            padding: 18px 30px;
+            border-radius: 22px;
+            border: 2px solid rgb(9, 160, 160);
+            font-size: 16px;
+        }
+
+        button {
+            width: 10%;
+            padding: 16px 30px;
+            border-radius: 22px;
+            background-color: rgb(142, 223, 196);
+            border: 2px solid rgb(9, 160, 160);
+            font-size: 16px;
+            background-color: transparent;
+
+        }
+
+        button:hover {
+            background-color: rgb(9, 160, 160);
+            color: blanchedalmond;
+        }
+
+    }
+
+    .tasklists {
+        ul {
+            width: 45%;
+            margin: 0 auto;
+            position: relative;
+
+
+
+            li {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 12px;
+                background-color: rgb(161, 214, 205);
+                border: 1px solid rgb(8, 74, 74);
+                border-radius: 12px;
+
+
+                p {
+
+                    padding: 15px;
+                    font-size: 18px;
+                }
+
+                span {
+                    display: flex;
+                    gap: 3px;
+
+                    .btn {
+                        padding: 8px 12px;
+                        width: 100px;
+                        border-radius: 8px;
+                    }
+
+                    .btn:hover {
+                        background-color: rgb(14, 163, 165);
+
+                    }
+                }
+            }
+
+            .completed {
+                text-decoration: line-through;
+                opacity: 0.3;
+            }
+        }
+    }
+}
+
+h5 {
+    text-align: center;
+    background-color: rgb(17, 139, 158);
+    color: white;
+    padding: 20px;
+    font-size: 23px;
+}
+
+.statuspage {
+
+    display: flex;
+    background: linear-gradient(rgb(24, 123, 123), rgb(69, 205, 246));
+    gap: 50px;
+    height: 90vh;
+  
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+
+        button {
+
+            padding: 18px 14px;
+            background: linear-gradient(rgb(35, 189, 213), aqua);
+            font-size: 16px;
+            cursor: pointer;
+            height: 30vh;
+        }
+
+        button:hover {
+            opacity: 0.7;
+        }
+    }
+
+    h2 {
+        color: rgb(250, 253, 254);
+        margin: 10px;
+        text-decoration: underline;
+    }
+
+    .stat {
+        padding-top: 10px;
+
+        li {
+            margin: 0 auto;
+            padding: 10px;
+            border-radius: 5px;
+            width: 100%;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            // margin-bottom: 5px;
+        }
+    }
+}
