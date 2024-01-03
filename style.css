@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    border: none;
+    outline: none;
+
+}
+body{
+    padding-top: 50px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 590px;
+    padding: 40px 50px;
+    background-image: linear-gradient(gray,rgb(207, 202, 202));
+    box-shadow: 2px 3px black;
+    border-radius: 20px;
+    height: 85vh;
+    color: rgb(4, 0, 0);
+}
+
+.filter {
+    padding: 10px 0px;
+}
+
+#all,
+#complete,
+#pending
+ {
+    color:#f7f5fa;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 5px;
+    width:130px;
+    background: rgb(116, 115, 115);
+}
+#edit,
+#delete,
+#completed,
+#undo{
+    background-color: rgb(250, 249, 252);
+    color:#878788;
+    padding: 8px 10px;
+    border-radius: 8px;
+    width:110px;
+}
+
+h1 {
+    font-weight: bold;
+    padding-bottom: 27px;
+    text-align: center;
+    color:rgb(249, 249, 253);
+
+}
+
+.spotlight {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+input {
+    padding: 14px 18px;
+    color: #f2ecfa;
+    background: rgb(116, 115, 115);
+    border-radius: 20px;
+    width: 68%;
+}
+input::placeholder{
+    color: #f2ecfa;
+}
+
+#add,#save {
+   
+    padding: 14px 18px;
+    background-color:rgb(50, 50, 51);
+    color:white;
+    border-radius: 14px;
+    font-size: 14px;
+    cursor: pointer;
+   
+}
+
+li {
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 8px;
+    border: 1 px solid black;
+    background-color: rgb(251, 249, 249);
+    gap: 20px;
+    width: 390px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: rgb(8, 8, 8);
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+b{
+    display: block;
+    color:black;
+    font-size: 22px;
+}
+s{
+    text-decoration: line-through;
+}
